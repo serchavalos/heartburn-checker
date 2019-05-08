@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuestionForm should render propperly 1`] = `
+<div>
+  <div
+    class="sc-htpNat bDVcPH"
+  >
+    <h1
+      class="sc-bdVaJa kiOLfu"
+    >
+      Thank for answering the questions!
+    </h1>
+    <p>
+      You seem to be dying but you'll be fine
+    </p>
+    <a
+      class="sc-bwzfXH fsFoMd"
+      href="/"
+    >
+      Booking a meeting
+    </a>
+  </div>
+  <a
+    class="sc-bxivhb jdlbjA"
+    href="/"
+  >
+    Back to the start screen
+  </a>
+</div>
+`;

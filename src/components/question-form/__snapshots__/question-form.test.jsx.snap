@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuestionForm should render propperly 1`] = `
+<div>
+  <div
+    class="sc-bdVaJa kXMpWJ"
+  >
+    <h1
+      class="sc-ifAKCX gxTlJM"
+    >
+      Is your heartburn previously known?
+    </h1>
+    <ul
+      class="sc-bwzfXH gtAMZT"
+    >
+      <li
+        class="sc-htpNat idJYXX"
+      >
+        Yes
+      </li>
+      <li
+        class="sc-htpNat idJYXX"
+      >
+        No
+      </li>
+    </ul>
+  </div>
+  <div
+    class="sc-bxivhb jcNPuI"
+  >
+    <a
+      class="sc-EHOje cTWAwk"
+      href="/"
+    >
+      Next
+    </a>
+  </div>
+</div>
+`;
