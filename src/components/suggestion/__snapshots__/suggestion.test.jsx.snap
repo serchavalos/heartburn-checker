@@ -3,10 +3,10 @@
 exports[`QuestionForm should render propperly 1`] = `
 <div>
   <div
-    class="sc-htpNat bDVcPH"
+    class="sc-bxivhb luIqf"
   >
     <h1
-      class="sc-bdVaJa kiOLfu"
+      class="sc-bdVaJa eAcTCg"
     >
       Thank for answering the questions!
     </h1>
@@ -14,14 +14,15 @@ exports[`QuestionForm should render propperly 1`] = `
       You seem to be dying but you'll be fine
     </p>
     <a
-      class="sc-bwzfXH fsFoMd"
-      href="/"
+      class="sc-htpNat iTsvih"
+      href="https://www.kry.se/"
+      target="_blank"
     >
       Booking a meeting
     </a>
   </div>
   <a
-    class="sc-bxivhb jdlbjA"
+    class="sc-ifAKCX cuLtBW"
     href="/"
   >
     Back to the start screen

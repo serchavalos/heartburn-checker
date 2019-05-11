@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 import { Question, Options, Option, Footer } from "./question-form-styled.js";
 import { Title } from "../shared/title/title";
-import { Button } from "../shared/button/button";
+import { NextButton } from "../shared/button/button";
 
 import questionManager from "../../services/question-manager";
 
@@ -56,12 +56,12 @@ export class QuestionForm extends React.Component {
         </Question>
 
         <Footer>
-          <Button
+          <NextButton
             to={path}
             onClick={evt => !selectedAnswer && evt.preventDefault()}
           >
             Next
-          </Button>
+          </NextButton>
         </Footer>
       </React.Fragment>
     );

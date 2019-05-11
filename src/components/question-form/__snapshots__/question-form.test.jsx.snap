@@ -3,10 +3,10 @@
 exports[`QuestionForm should render propperly 1`] = `
 <div>
   <div
-    class="sc-bdVaJa kXMpWJ"
+    class="sc-bdVaJa jaTwLJ"
   >
     <h1
-      class="sc-ifAKCX gxTlJM"
+      class="sc-ifAKCX leoJzg"
     >
       Is your heartburn previously known?
     </h1>
@@ -14,12 +14,12 @@ exports[`QuestionForm should render propperly 1`] = `
       class="sc-bwzfXH gtAMZT"
     >
       <li
-        class="sc-htpNat idJYXX"
+        class="sc-htpNat cGNQIs"
       >
         Yes
       </li>
       <li
-        class="sc-htpNat idJYXX"
+        class="sc-htpNat cGNQIs"
       >
         No
       </li>
@@ -29,7 +29,7 @@ exports[`QuestionForm should render propperly 1`] = `
     class="sc-bxivhb jcNPuI"
   >
     <a
-      class="sc-EHOje cTWAwk"
+      class="sc-EHOje kOBkUv"
       href="/"
     >
       Next

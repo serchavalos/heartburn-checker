@@ -5,7 +5,6 @@ import { fontColorPrimary, green, gray, minWidth } from "../shared/styles";
 export const MainContainer = styled.div`
   color: ${fontColorPrimary};
   height: 100vh;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -34,7 +33,7 @@ export const Title = styled.div`
 `;
 
 export const ProgressBar = styled.div`
-  height: 2px;
+  height: 3px;
   background-color: ${gray};
   position: relative;
 
@@ -42,7 +41,7 @@ export const ProgressBar = styled.div`
     content: "";
     display: block;
     position: absolute;
-    height: 2px;
+    height: 3px;
     left: 0;
     top: 0;
     width: ${props => props.progress || 0}%;

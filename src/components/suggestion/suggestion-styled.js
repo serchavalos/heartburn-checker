@@ -4,7 +4,7 @@ import { Link as BaseLink } from "react-router-dom";
 import { green } from "../shared/styles";
 
 export const Container = styled.div`
-  margin-top: 7rem;
+  margin-top: 4rem;
 `;
 
 export const Link = styled(BaseLink)`

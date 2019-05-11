@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import { Title } from "../shared/title/title";
-import { Button } from "../shared/button/button";
+import { CtaButton } from "../shared/button/button";
 import { Container, Link } from "./suggestion-styled";
 
 export const Suggestion = ({ text, showBookingButton }) => {
@@ -11,7 +11,11 @@ export const Suggestion = ({ text, showBookingButton }) => {
       <Container>
         <Title>Thank for answering the questions!</Title>
         <p>{text}</p>
-        {showBookingButton && <Button to="#">Booking a meeting</Button>}
+        {showBookingButton && (
+          <CtaButton href="https://www.kry.se/" target="_blank">
+            Booking a meeting
+          </CtaButton>
+        )}
       </Container>
       <Link to="/">Back to the start screen</Link>
     </React.Fragment>

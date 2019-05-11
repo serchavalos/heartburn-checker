@@ -7,7 +7,7 @@ const lineHeight = 23;
 
 export const Question = styled.div`
   display: block;
-  margin-top: 7rem;
+  margin-top: 4rem;
 `;
 
 export const Options = styled.ul`
@@ -25,9 +25,9 @@ export const Option = styled.li`
   border: ${({ selected }) => (selected ? "none" : `1px solid ${gray}`)};
   font-weight: bold;
   padding: 0.6rem 1.5rem;
-  min-width: 10rem;
+  min-width: 8.5rem;
   border-radius: 1.5rem;
-  text-align: center;
+  text-align: ${({ selected }) => (selected ? "left" : "center")};
   cursor: pointer;
   outline: none;
   position: relative;

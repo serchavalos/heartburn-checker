@@ -56,12 +56,13 @@ export class QuestionManager {
     }
 
     if (outcomes) {
-      const filtered = outcomes.filter(
-        i => i.max_score && i.max_score >= score
-      );
+      const filtered = outcomes
+        .filter(i => i.max_score)
+        .filter(i => score < i.max_score);
+
       const outcomeId =
         filtered.length > 0
-          ? filtered[filtered.length - 1].outcome
+          ? filtered[0].outcome
           : outcomes[outcomes.length - 1].outcome;
       return ["outcome", outcomeId];
     }

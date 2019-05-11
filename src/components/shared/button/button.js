@@ -1,15 +1,13 @@
-import styled from "styled-components";
-import { Link as BaseLink } from "react-router-dom";
+import styled, { css } from "styled-components";
+import { Link } from "react-router-dom";
 
 import arrowRightWhite from "../../../assets/ic-arrow-right-white.svg";
 import { fontColorSecondary, green, gray } from "../styles";
 
 const lineHeight = "20px";
 
-export const Button = styled(BaseLink)`
+const baseButtonStyles = css`
   display: block;
-  color: ${props => (props.to ? "white" : fontColorSecondary)};
-  background-color: ${props => (!!props.to ? green : gray)};
   text-decoration: none;
   text-align: center;
   line-height: ${lineHeight};
@@ -26,4 +24,17 @@ export const Button = styled(BaseLink)`
     height: ${lineHeight};
     width: ${lineHeight};
   }
+`;
+
+export const NextButton = styled(Link)`
+  ${baseButtonStyles}
+  color: ${props => (props.to ? "white" : fontColorSecondary)};
+  background-color: ${props => (!!props.to ? green : gray)};
+`;
+
+export const CtaButton = styled.a`
+  ${baseButtonStyles}
+
+  color: white;
+  background-color: ${green};
 `;
